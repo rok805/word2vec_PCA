@@ -1,2 +1,16 @@
-# word2vec_PCA
-compare word2vec and PCA for dimension reduction
+
+## word2vec and PCA, t-SNE
+
+"compare word2vec and PCA for dimension reduction"
+
+단어 임베딩을 하는 경우, word2vec으로 벡터를 처음부터 2,3차원으로 학습을 시키는 경우와 100차원,200차원으로 임베딩한 후 PCA를 통해 2,3차원으로 나타내었을 때 차이를 비교하는 실험!
+
+
+#### 실험동기)
+
+스터디중 PCA가 등장했고, w2v는 보통 100~ 차원정도로 단어를 임베딩하는데 처음부터 2~3 차원으로 학습하는 경우 vs 100차원으로 학습하고 PCA, t-SNE으로 차원축소를 하는 경우를 시각화를 통해 비교해본다.
+
+
+#### 실험결과)
+
+보통 다차원의 값을 시각화할 때 PCA, t-SNE를 사용한다. 실험 결과는 아래와 같다.
